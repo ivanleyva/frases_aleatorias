@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "e4214a7c-b7c9-4346-b8cb-ac059be667b5",
+		"name": "Frase aleatorias",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47975338",
+		"_collection_link": "https://ivan-leyva-s-team.postman.co/workspace/Team-Workspace~d4583987-bd96-4549-89cd-e652b8646d64/collection/47975338-e4214a7c-b7c9-4346-b8cb-ac059be667b5?action=share&source=collection_link&creator=47975338"
+	},
+	"item": [
+		{
+			"name": "http://localhost:4000/random/quotes/random",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/random/quotes/random",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"random",
+						"quotes",
+						"random"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/random/quotes",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/random/quotes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"random",
+						"quotes"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
